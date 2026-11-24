@@ -1,0 +1,29 @@
+# Java
+target/
+*.class
+*.jar
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Frontend
+node_modules/
+dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+application-secret.properties
+
+# Database backups
+*.backup
+*.dump
+
+# Windows
+Thumbs.db
+Desktop.ini
